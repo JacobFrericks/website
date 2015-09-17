@@ -1,1 +1,51 @@
-Coming Soon
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css" />
+
+<body>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+        .demo-layout-transparent {
+        background: url('images/banner_comingsoon.png') center / cover;
+        }
+        .demo-layout-transparent .mdl-layout__header,
+        .demo-layout-transparent .mdl-layout__drawer-button {
+        /* This background is dark, so we set text to white. Use 87% black instead if
+        your background is light. */
+        color: white;
+        }
+        @media only screen and (min-width:851px){
+            .mdl-layout__drawer-button {
+                display: none;
+            }
+        }
+    </style>
+
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title"></span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation">
+                    <!--<a class="mdl-navigation__link" href="">Portfolio</a>-->
+                    <!--<a class="mdl-navigation__link" href="">About Me</a>-->
+                    <!--<a class="mdl-navigation__link" href="">Blog</a>-->
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title"></span>
+            <nav class="mdl-navigation">
+                <!--<a class="mdl-navigation__link" href="">Portfolio</a>-->
+                <!--<a class="mdl-navigation__link" href="">About Me</a>-->
+                <!--<a class="mdl-navigation__link" href="">Blog</a>-->
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+        </main>
+    </div>
+</body>
