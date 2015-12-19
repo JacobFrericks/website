@@ -1,51 +1,261 @@
-<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
-<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css" />
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-    <!-- Uses a transparent header that draws on top of the layout's background -->
-    <style>
-        .demo-layout-transparent {
-        background: url('images/banner_comingsoon.png') center / cover;
-        }
-        .demo-layout-transparent .mdl-layout__header,
-        .demo-layout-transparent .mdl-layout__drawer-button {
-        /* This background is dark, so we set text to white. Use 87% black instead if
-        your background is light. */
-        color: white;
-        }
-        @media only screen and (min-width:851px){
-            .mdl-layout__drawer-button {
-                display: none;
-            }
-        }
-    </style>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Professional Website">
+    <meta name="author" content="Jacob Frericks">
 
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-        <header class="mdl-layout__header mdl-layout__header--transparent">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title"></span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
-                <nav class="mdl-navigation">
-                    <!--<a class="mdl-navigation__link" href="">Portfolio</a>-->
-                    <!--<a class="mdl-navigation__link" href="">About Me</a>-->
-                    <!--<a class="mdl-navigation__link" href="">Blog</a>-->
-                </nav>
+    <title>Jacob Frericks</title>
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Timeline -->
+    <link href="css/timeline.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand" href="#page-top">Jacob Frericks</a>
             </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"></span>
-            <nav class="mdl-navigation">
-                <!--<a class="mdl-navigation__link" href="">Portfolio</a>-->
-                <!--<a class="mdl-navigation__link" href="">About Me</a>-->
-                <!--<a class="mdl-navigation__link" href="">Blog</a>-->
-            </nav>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About Me</a>
+                    </li>
+                    <!--<li class="page-scroll">-->
+                        <!--<a href="#skills">Skills</a>-->
+                    <!--</li>-->
+                    <li class="page-scroll">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <!--<li class="page-scroll">-->
+                        <!--<a href="#education">Education</a>-->
+                    <!--</li>-->
+                    <!--<li class="page-scroll">-->
+                        <!--<a href="#portfolio">Portfolio</a>-->
+                    <!--</li>-->
+                    <!--<li class="page-scroll">-->
+                        <!--<a href="#contact">Contact</a>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <main class="mdl-layout__content">
-        </main>
-    </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/banner2.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">I'M JACOB FRERICKS</span>
+                        <!--<hr class="star-light">-->
+                        <span class="skills">Engineer - Cloud - Mobile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                    <h4>Short description about myself</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-1">
+                    <p>First of all, thank you for taking a look at my website. I really appreciate your interest.
+                       My name is Jacob, and I am an currently an employee at IBM as a Software Developer in the cloud, and am a
+                        graduate of Iowa State University with a degree in Computer Science. I’ve been interested in
+                        computers since I was young, and began my studies at Iowa State in 2009. I graduated in
+                        Spring of 2013, and started working at IBM in Rochester MN.</p>
+
+                    <p>As you can tell by looking around this site, I am a computer programmer. To be more specific,
+                        I have focused on Android and Cloud applications.</p>
+
+                    <p>Feel free to take a look through my projects by visiting the link at the top of the page.
+                        Also, a lot of the projects are available on my GitHub. If that is of more interest to you, please
+                        check out <a href="https://github.com/JacobFrericks">my GitHub page</a>.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="centerBlock">
+                        <img class="img-responsive" src="img/profile_pic.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Work Experience</h2>
+                    <h4>My previous associations</h4>
+                </div>
+            </div>
+            <div class="container" >
+                <div class="row ">
+                    <div class="col-md-offset-2 col-md-8 col-sm-12" >
+                        <div >
+                            <ul class="my_timeline">
+                                <li class="time-label">
+                                <span class="bg-orange">My Work Experience
+                                </span>
+                                    <br />
+                                    <br />
+                                </li>
+
+                                <li class="time-label">
+                                    <span class="bg-light-blue"> Year 2015</span>
+                                </li>
+
+                                <!-- Code for the timeline footer, if ever needed -->
+                                <!--<div class='my_timeline-footer'>-->
+                                    <!--<a class="btn btn-primary btn-xs">Share</a>-->
+                                    <!--<a class="btn btn-danger btn-xs">Read More</a>-->
+                                <!--</div>-->
+
+                                <!-- Cloud Software Engineer - IBM: Jan 2015 -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="my_timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> January</span>
+                                        <h3 class="my_timeline-header">Cloud Software Engineer - IBM</h3>
+                                        <div class="my_timeline-body">
+                                            Microservices Squad<br>
+                                            Working in the Micro Services squad to create and maintain several projects,
+                                            including Common Service Broker ( to help other squads turn
+                                            their apps into services within Bluemix), and Service Proxy.<br>
+                                            I work with other teams to interface with our services and provide
+                                            support when needed.
+                                            <br><br>
+                                            Build Team<br>
+                                            Management of Jenkins/Gerrit servers, and assisting other developers in using these tools
+                                            Assisting others in using Git to connect to Gerrit and GitHub
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="time-label">
+                                    <span class="bg-light-blue"> Year 2013</span>
+                                </li>
+
+                                <!-- Software Engineer - IBM: June 2013 -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="my_timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> June</span>
+                                        <h3 class="my_timeline-header">Software Engineer - IBM</h3>
+                                        <div class="my_timeline-body">
+                                            Ice Castle<br>
+                                            Creating Software Defined Networking for Virtual Environments, and working with Open vSwitch to meet IBM's needs for Ice Castle.
+                                            <br><br>
+                                            VSAE<br>
+                                            Lead developer for the Virtual Server Activation Engine team.
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Grauduated ISU: May 2013 -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="my_timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> May</span>
+                                        <h3 class="my_timeline-header">Graduated from ISU</h3>
+                                        <div class="my_timeline-body">
+                                            I graduated from Iowa State University with a major in Computer Science
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="time-label">
+                                    <span class="bg-light-blue"> Year 2011</span>
+                                </li>
+
+                                <!-- Software Consultant Intern - Kingland Systems: November 2011 -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="my_timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> November</span>
+                                        <h3 class="my_timeline-header">Software Consultant Intern - Kingland Systems</h3>
+                                        <div class="my_timeline-body">
+                                            Data Solutions Team<br>
+                                            Updating their website (which uses Java, Google WebToolkit and Sencha GXT) from GXT version 2.3 to 3.0
+                                            <br><br>
+                                            DESC Team<br>
+                                            Developing in C#, HTML, Javascript and SQL for the DESC team<br>
+                                            Created a "ResponsiblePartyReview" page (where over 1000 parties can review their responsibilities) by using C#, HTML, Javascript and SQL
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="time-label">
+                                    <span class="bg-light-blue"> Year 2009</span>
+                                </li>
+
+                                <!-- Master Technician - Staples: March 2009 -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="my_timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> March</span>
+                                        <h3 class="my_timeline-header">Master Technician - Staples</h3>
+                                        <div class="my_timeline-body">
+                                            Visit people at their home/office to repair computers and perform other services
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Timeline footer -->
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.container -->
+        </div>
+    </section>
+
 </body>
+
+</html>
