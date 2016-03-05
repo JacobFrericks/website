@@ -155,6 +155,16 @@
                         <img src="img/portfolio/d1i/main-screen.png" class="img-responsive" alt="">
                     </a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#awesomescheduler" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/awesome_scheduler/scheduler-main-screen.png" class="img-responsive" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -304,7 +314,8 @@
                             <h2>Color Game</h2>
                             <br>
                             <img src="img/portfolio/Color_Game_full.png" class="img-responsive img-centered" alt="">
-                            <p>This is a game that helps you practice deciphering RGB color codes. I created this as a class project when learning web development. You can play the game now by clicking <a href="colorgame/colorgame.html">here</a>.</p>
+                            <p>This is a game that helps you practice deciphering RGB color codes. I created this as a class
+                              project when learning web development. You can play the game now by clicking <a href="colorgame/colorgame.html">here</a>.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -350,6 +361,50 @@
                                This means that you won’t be able to see any server side activity, including chats. Also,
                              since this wasn't a photography class, we were allowed to use any image we found online, with the understanding
                              that if we wanted to publish our work outside the class, we would need to redo the images.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="awesomescheduler" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Awesome Scheduler</h2>
+                            <br>
+                            <img src="img/portfolio/awesome_scheduler/scheduler-main-screen.png" class="img-responsive img-centered" alt="">
+                            <p>This is an application that will help a school develop a schedule more tailored to a student’s wants and desires.
+                              This is a project for ComS 362 - Object-Oriented Analysis and Design, which is more focused on project design rather
+                              than making it look pretty. It’s because of this that my group decided to focus less on the graphical user interface
+                              (GUI) and algorithms, and more on the development of the project. In other words, it won’t be fast or pretty, but it
+                              will be well made. (Note, if this were an actual product we would focus on all of the above, but due to time constraints
+                              we decided to focus on what will get us an A and then use the remainder time to make it fast and pretty).</p>
+                            <p>We have 3 users, the administrator, the teacher and the student. The student will be able to add the top three electives
+                              that they wish to take. The teacher will be able to edit their availability to teach their main class.
+                              The Administrator will be able to edit all of the above, and actually generate the schedule.</p>
+                            <p>The focus of this class is to get us to practice using the Model View Controller (MVC) pattern. This pattern is designed
+                              mainly for re-usability. You have a “Black Box” program, and use controllers to handle the UI and the database.
+                              Using this pattern will allow others to use your code, but easily change out your UI or database for another.</p>
+                            <p><a href="img/portfolio/awesome_scheduler/scheduler-design.pdf">Click this link</a> for our design document. This document includes our inception paragraph, list of actors,
+                              plan for the three iterations and the use cases and their descriptions. The description of each use case includes the name,
+                              actor, precondition, Main Success Scenario (MSS), information experts, and (for a few use cases) an extension.</p>
+                            <p>You’ll notice in the Design that we had to modify some use cases after Iteration 1 and 2. The reason for the changes
+                              after iteration are obvious, but I want to explain the changes after Iteration 2. One of the use cases during Iteration 2
+                              was “Generate Schedules”. The idea behind this use case was that the instructors could choose a certain period that they
+                              would like to teach a study hall (if you’re unfamiliar with high school study halls, that’s where the students study
+                              at their desks, and the instructor does lesson plans). I just happen to be in a complex algorithms class at the same time,
+                              so I set up a meeting to talk to the professor of that class to come up with an algorithm for this. After a few hours, we
+                              decided that this algorithm, while very interesting, is also considered NP-Hard. While solvable, this algorithm would
+                              probably take more time than what we have to come up with it. I talked to the professor teaching my ComS 362 class, and
+                              since this class isn’t focused on the algorithm, he approved the suggestion to not allow the instructors to choose what
+                              periods to take their study halls. This simplified the algorithm enough for us to easily generate schedules. The way the
+                              program is designed, however, we can easily swap out another algorithm, if we come up with a better one.</p>
+                            <p>Keep in mind, that we spent a total of about 30 minutes on the GUI, so this won’t be as pretty as some of my other projects.
+                              This can be easily fixed in the future however, since we followed the MVC pattern we can easily swap out another user interface.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
