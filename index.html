@@ -145,6 +145,16 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
+                    <a href="#blueville" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/blueville/main.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
                     <a href="#district1invasion" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -336,6 +346,69 @@
                             <p>This is a game that helps you practice deciphering RGB color codes. I created this as a class
                               project when learning web development. You can play the game now by clicking
                               <a href="colorgame/colorgame.html" target="_blank">here</a>.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="blueville" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>BlueVille</h2>
+                            <br>
+                            <img src="img/portfolio/blueville/main.png" class="img-responsive img-centered" alt="">
+                            <p>BlueVille was an android app that myself and three others created for an internal IBM hackathon in early 2014.
+                              The purpose for the hackathon was to use IBM’s Mobile Backend as a Service platform called BlueMix.
+                              This product was in open beta at the time of the hackathon, and they wanted a bunch of us to test it out.
+                              BlueVille mainly used the service that created a backend database. We used this database to synchronize  information
+                              across all devices.</p>
+
+                            <p>BlueVille is a community networking application, whose users are a part of a community that is based on the geographical
+                              location of other app users. The app simulates the community that is naturally formed by people in the same place such
+                              as within your office, within the neighborhood you live in, or those attending the same play or sporting event.</p>
+
+                            <p>The difference between the BlueVille and other community based network apps like Nextdoor or Life360 is that a BlueVille
+                              community is dynamically formed of the people that are in the same geographic location as you. When you are at home the
+                              community is other users that live near you. When you are driving into a new city the community is other people in the city.
+                              When you go to a new restaurant your community is the other BlueVille users at the restaurant. Imagine walking into a new
+                              restaurant and shouting “Is the special any good tonight!!” That’s probably not going to happen, but BlueVille allows you
+                              to get the same information without looking like an fool.</p>
+
+                            <p>When a person installs BlueVille they decide the geographic size of the community they are interested in and what type
+                              of information they will receive. As they move through their day the community where they exist is dynamically changing.
+                              At anytime they can receive valuable information from those around them.</p>
+
+                            <p>The advantage of the BlueVille approach is that users with a common interest in geographic based information will be
+                              joined regardless of where they are located. They are not bound to information from a static community. This is important
+                              because in life the community that you are a member of is constantly changing. Here are a couple use cases for that
+                              demonstrate the usefulness of BlueVille and it’s dynamics community notifications.</p>
+
+                            <p>Use Case #1 – Traffic: You are driving along the expressway and suddenly traffic stops. You wonder “What is causing the
+                              traffic stoppage?”. Will you need to change your route or wait until traffic gets moving again. If you decide to change
+                              route to avoid the stoppage you would like to know the best alternate route. You registered for “Traffic” tags before you
+                              left home so when the person in the front of the line submits an item to BlueVille stating that a tow is removing a
+                              stalled vehicle and traffic will be flowing soon, you and everyone subscribed to “Traffic” notifications gets a notification
+                              that there is a stalled vehicle ahead, and you will be moving soon.</p>
+
+                            <p>Use Case #2 – Suspicious Person: You are at a hotel in a strange city and planning to leave for dinner. You are a medical
+                              doctor so when you arrive at the hotel you register for “Medical”, “Crime” and “Suspicious Persons” on the BlueVille app.
+                              Moments before you leave the hotel you receive a notification from a member of the BlueVille community that contains a
+                              picture of a group of people on the street outside the hotel. The notification says “This group is shouting profanity at
+                              everyone that leaves the hotel”. Based on the photo and comments, you decide to eat at the hotel restaurant and avoid the
+                              potential trouble.</p>
+
+                            <p>BlueVille uses IBM’s Mobile Backend as a Service (MBaaS) service for mobile data in conjunction with google map support to
+                              save items that are posted by community members. Each post contains the location of the item, the item data and the item tag
+                              which identifies the category that describes the item.</p>
+
+                            <p>A users mobile device will signal the backend BlueVille service with the device’s current location. When posts are received
+                              within the user selected geographic range application will determine if the user has chosen to receive notifications for this tag.
+                               If the tag category was selected a notification will appear on the main screen of BlueVille.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
