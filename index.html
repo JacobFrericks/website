@@ -118,7 +118,6 @@
                         <img class="img-responsive" src="img/profile_pic.png" alt="">
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -176,7 +175,16 @@
                     <img src="img/portfolio/connectfour/game-pic.png" class="img-responsive" alt="">
                 </a>
             </div>
-        </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#playallnight" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/playallnight/playallnight.png" class="img-responsive" alt="">
+                </a>
+            </div>
         </div>
     </section>
 
@@ -326,7 +334,8 @@
                             <br>
                             <img src="img/portfolio/Color_Game_full.png" class="img-responsive img-centered" alt="">
                             <p>This is a game that helps you practice deciphering RGB color codes. I created this as a class
-                              project when learning web development. You can play the game now by clicking <a href="colorgame/colorgame.html">here</a>.</p>
+                              project when learning web development. You can play the game now by clicking
+                              <a href="colorgame/colorgame.html" target="_blank">here</a>.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -400,7 +409,7 @@
                             <p>The focus of this class is to get us to practice using the Model View Controller (MVC) pattern. This pattern is designed
                               mainly for re-usability. You have a “Black Box” program, and use controllers to handle the UI and the database.
                               Using this pattern will allow others to use your code, but easily change out your UI or database for another.</p>
-                            <p><a href="img/portfolio/awesome_scheduler/scheduler-design.pdf">Click this link</a> for our design document. This document includes our inception paragraph, list of actors,
+                            <p><a href="img/portfolio/awesome_scheduler/scheduler-design.pdf" target="_blank">Click this link</a> for our design document. This document includes our inception paragraph, list of actors,
                               plan for the three iterations and the use cases and their descriptions. The description of each use case includes the name,
                               actor, precondition, Main Success Scenario (MSS), information experts, and (for a few use cases) an extension.</p>
                             <p>You’ll notice in the Design that we had to modify some use cases after Iteration 1 and 2. The reason for the changes
@@ -436,15 +445,46 @@
                               The algorithm I decided to use was the minimax algorithm.</p>
 
                             <p>There were specific requirements for this class, so I wasn’t able to make a complete product (no GUI for instance),
-                              but the algorithms described in the <a href="https://github.com/JacobFrericks/Connect-Four/">source code</a> are working.</p>
+                              but the algorithms described in the <a href="https://github.com/JacobFrericks/Connect-Four/"target="_blank">source code</a>
+                               are working.</p>
 
                             <p>Like previously mentioned, I will use the Minimax algorithm, along with a predefined depth. This depth is given by
                               the player’s choice of difficulty (ie, depth 1 for easy, 3 for medium, 6 for hard). The “super easy”
                               level is where the computer randomly chooses a slot, and doesn’t perform the algorithm altogether.</p>
 
-                            <p>If you're interested, here is the <a href="img/portfolio/connectfour/report.pdf">full report</a>
-                              and the <a href="img/portfolio/connectfour/presentation.pdf">presentation</a>.</p>
+                            <p>If you're interested, here is the <a href="img/portfolio/connectfour/report.pdf" target="_blank">full report</a>
+                              and the <a href="img/portfolio/connectfour/presentation.pdf" target="_blank">presentation</a>.</p>
 
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="playallnight" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Connect Four</h2>
+                            <br>
+                            <img src="img/portfolio/playallnight/playallnight.png" class="img-responsive img-centered" alt="">
+                            <p>This is an application that I created for my wife because she had a need that we couldn’t find in any
+                              other app. She has an issue where she can’t sleep without some static noise or music playing in the background.
+                              We found an awesome track that puts her right to sleep (the static noise wasn’t working for her). The problem
+                              is that when it turns off, she is right awake. So I started looking for an application that could play music
+                              until a certain time. We found one, but it wasn’t very convenient. It had a sleep function, but it only incremented
+                              by 5 min. In other words, if she wanted a full nights sleep, we would have to press the “+5 minutes” button about 96 times
+                              before we got the time we wanted. So I created this app.</p>
+
+                            <p>It is worth noting, that this app will never reach the Play Store. I decided it wasn’t worth the $25 to upload,
+                              only to have one person download it. It also allowed me to put the track directly into the assets folder, so we won’t have
+                              to keep track of it. Also, I followed a number of online tutorials to get this finished, but the main one is found
+                              <a href="http://hubpages.com/technology/How-to-Make-a-Simple-Media-Player-for-Android" target="_blank">here</a>. I did
+                              deviate from it quite a bit near the end, but this was the best one that got me started in understanding how
+                              the MusicPlayer worked.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
