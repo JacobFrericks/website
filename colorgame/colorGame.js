@@ -8,8 +8,12 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
+var helpButton = document.querySelector("#help");
 resetButton.addEventListener("click", function() {
   reset();
+})
+helpButton.addEventListener("click", function() {
+    $("#helpModal").modal();
 })
 
 init();
@@ -55,7 +59,6 @@ function setupModeButtons() {
     });
   }
 }
-
 
 function reset() {
   // Genrate new colors

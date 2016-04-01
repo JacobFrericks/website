@@ -47,7 +47,7 @@ h1 {
   background: blue
 }
 
-button {
+.headerButton {
   border: none;
   background: none;
   text-transform: uppercase;
