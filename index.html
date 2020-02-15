@@ -129,6 +129,46 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
+                    <a href="#acaEagles" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/aca_eagles/news.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#midIowaVending" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/mid_iowa_vending/quality_vending.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#cassieTutor" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cassie_tutor/home.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#playallnight" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/playallnight/playallnight.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
                     <a href="#colorgame" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -179,16 +219,7 @@
                     <img src="img/portfolio/connectfour/game-pic.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#playallnight" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="img/portfolio/playallnight/playallnight.png" class="img-responsive" alt="">
-                </a>
-            </div>
+
         </div>
       </div>
     </section>
@@ -420,6 +451,74 @@
     {% include footer.html %}
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="acaEagles" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ACA Eagles</h2>
+                            <br>
+                            <img src="img/portfolio/aca_eagles/announcements.png" class="img-responsive img-centered" alt="">
+                            <p>This Android and IOS application was built for my old High School.
+                                It provides users direct access to the most recent news, announcements, events,
+                                general information about the school, and more.
+                                See <a href="https://play.google.com/store/apps/details?id=com.ankenychristianacademy.ankenychristianacademy">here</a> for more details. </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="midIowaVending" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mid Iowa Vending</h2>
+                            <br>
+                            <img src="img/portfolio/mid_iowa_vending/quality_vending.png" class="img-responsive img-centered" alt="">
+                            <p>Mid Iowa Vending is a website I created for a friend who is starting a vending machine business. This was
+                                created using Flutter (which uses Dart). I have setup a pipeline to have it test, build, and deploy
+                                automatically when a push to the master branch occurs.
+                                <br><br>
+                                The "Contact Us" page sends the provided information to
+                                an AWS Lambda, which will send an email to Mid Iowa Vending. The site is built on GitHub, and uses GitHub
+                                Actions for the pipeline. It is hosted on GitHub pages.
+                                 </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="cassieTutor" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cassie's Tutoring</h2>
+                            <br>
+                            <img src="img/portfolio/cassie_tutor/home.png" class="img-responsive img-centered" alt="">
+                            <p>Cassie's Tutoring is a website that I created for my wife, who started tutoring on the side. It's targeted at 5th graders and under. This was created using ReactJs.
+                                <br><br>
+                                The "Contact Me" page sends the provided information to an AWS Lambda, which will
+                                send an email to us. The site is built on GitHub, and is hosted on GitHub pages.
+                                 </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="portfolio-modal modal fade" id="colorgame" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="container">
